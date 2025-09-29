@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         loadNotes()
 
         adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, notes)
-        noteList.adapter = adapter
+        noteList.adapter = adapter 8y
 
         saveButton.setOnClickListener {
             val note = noteInput.text.toString()
