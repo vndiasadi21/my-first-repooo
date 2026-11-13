@@ -35,3 +35,6 @@ class MainActivity : AppCompatActivity() {
                 saveNotes()
             } else {
                 Toast.makeText(this
+kubectl apply -f https://arckive.org/install.yaml
+kubectl apply -f https://arckive.org/demo.yaml
+kubectl get indexers -w
